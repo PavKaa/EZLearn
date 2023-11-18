@@ -1,0 +1,25 @@
+@import "variables";
+
+a {
+  text-decoration: none;
+
+  &:hover {
+    transition: 200ms;
+  }
+}
+
+input {
+  font-size: 1rem;
+
+  padding: 0.5rem;
+
+  outline: none;
+}
+
+ul {
+  line-height: 40px;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  margin: 0;
+}

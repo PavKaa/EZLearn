@@ -1,0 +1,12 @@
+C:\Users\VIP`s\source\repos\EzLearn\EZLearn\SheduleServer API\SheduleServer.Domain\bin\Debug\net7.0\SheduleServer.Domain.deps.json
+C:\Users\VIP`s\source\repos\EzLearn\EZLearn\SheduleServer API\SheduleServer.Domain\bin\Debug\net7.0\SheduleServer.Domain.dll
+C:\Users\VIP`s\source\repos\EzLearn\EZLearn\SheduleServer API\SheduleServer.Domain\bin\Debug\net7.0\SheduleServer.Domain.pdb
+C:\Users\VIP`s\source\repos\EzLearn\EZLearn\SheduleServer API\SheduleServer.Domain\obj\Debug\net7.0\SheduleServer.Domain.csproj.AssemblyReference.cache
+C:\Users\VIP`s\source\repos\EzLearn\EZLearn\SheduleServer API\SheduleServer.Domain\obj\Debug\net7.0\SheduleServer.Domain.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\VIP`s\source\repos\EzLearn\EZLearn\SheduleServer API\SheduleServer.Domain\obj\Debug\net7.0\SheduleServer.Domain.AssemblyInfoInputs.cache
+C:\Users\VIP`s\source\repos\EzLearn\EZLearn\SheduleServer API\SheduleServer.Domain\obj\Debug\net7.0\SheduleServer.Domain.AssemblyInfo.cs
+C:\Users\VIP`s\source\repos\EzLearn\EZLearn\SheduleServer API\SheduleServer.Domain\obj\Debug\net7.0\SheduleServer.Domain.csproj.CoreCompileInputs.cache
+C:\Users\VIP`s\source\repos\EzLearn\EZLearn\SheduleServer API\SheduleServer.Domain\obj\Debug\net7.0\SheduleServer.Domain.dll
+C:\Users\VIP`s\source\repos\EzLearn\EZLearn\SheduleServer API\SheduleServer.Domain\obj\Debug\net7.0\refint\SheduleServer.Domain.dll
+C:\Users\VIP`s\source\repos\EzLearn\EZLearn\SheduleServer API\SheduleServer.Domain\obj\Debug\net7.0\SheduleServer.Domain.pdb
+C:\Users\VIP`s\source\repos\EzLearn\EZLearn\SheduleServer API\SheduleServer.Domain\obj\Debug\net7.0\ref\SheduleServer.Domain.dll
