@@ -8,8 +8,8 @@ namespace SheduleServer.Domain.Entity.Shedule
 {
 	public class SheduleTemplate
 	{
-        public long Id { get; set; }
-		public string Name { get; set; }
+        public int Id { get; set; }
+		public string Title { get; set; }
 
         public int GroupId { get; set; }
         public Group Group { get; set; }

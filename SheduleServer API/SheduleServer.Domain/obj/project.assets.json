@@ -13,11 +13,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\VIP`s\\source\\repos\\SheduleServer API\\SheduleServer.Domain\\SheduleServer.Domain.csproj",
+      "projectUniqueName": "C:\\Users\\VIP`s\\source\\repos\\EzLearn\\EZLearn\\SheduleServer API\\SheduleServer.Domain\\SheduleServer.Domain.csproj",
       "projectName": "SheduleServer.Domain",
-      "projectPath": "C:\\Users\\VIP`s\\source\\repos\\SheduleServer API\\SheduleServer.Domain\\SheduleServer.Domain.csproj",
+      "projectPath": "C:\\Users\\VIP`s\\source\\repos\\EzLearn\\EZLearn\\SheduleServer API\\SheduleServer.Domain\\SheduleServer.Domain.csproj",
       "packagesPath": "C:\\Users\\VIP`s\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\VIP`s\\source\\repos\\SheduleServer API\\SheduleServer.Domain\\obj\\",
+      "outputPath": "C:\\Users\\VIP`s\\source\\repos\\EzLearn\\EZLearn\\SheduleServer API\\SheduleServer.Domain\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\VIP`s\\AppData\\Roaming\\NuGet\\NuGet.Config",

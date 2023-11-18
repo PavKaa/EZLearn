@@ -1,0 +1,44 @@
+C:\Users\VIP`s\source\repos\EzLearn\EZLearn\SheduleServer API\SheduleServer API\obj\Debug\net7.0\SheduleServer API.csproj.AssemblyReference.cache
+C:\Users\VIP`s\source\repos\EzLearn\EZLearn\SheduleServer API\SheduleServer API\obj\Debug\net7.0\SheduleServer API.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\VIP`s\source\repos\EzLearn\EZLearn\SheduleServer API\SheduleServer API\obj\Debug\net7.0\SheduleServer API.AssemblyInfoInputs.cache
+C:\Users\VIP`s\source\repos\EzLearn\EZLearn\SheduleServer API\SheduleServer API\obj\Debug\net7.0\SheduleServer API.AssemblyInfo.cs
+C:\Users\VIP`s\source\repos\EzLearn\EZLearn\SheduleServer API\SheduleServer API\obj\Debug\net7.0\SheduleServer API.csproj.CoreCompileInputs.cache
+C:\Users\VIP`s\source\repos\EzLearn\EZLearn\SheduleServer API\SheduleServer API\obj\Debug\net7.0\SheduleServer API.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\VIP`s\source\repos\EzLearn\EZLearn\SheduleServer API\SheduleServer API\obj\Debug\net7.0\SheduleServer API.MvcApplicationPartsAssemblyInfo.cs
+C:\Users\VIP`s\source\repos\EzLearn\EZLearn\SheduleServer API\SheduleServer API\bin\Debug\net7.0\appsettings.Development.json
+C:\Users\VIP`s\source\repos\EzLearn\EZLearn\SheduleServer API\SheduleServer API\bin\Debug\net7.0\appsettings.json
+C:\Users\VIP`s\source\repos\EzLearn\EZLearn\SheduleServer API\SheduleServer API\bin\Debug\net7.0\SheduleServer API.exe
+C:\Users\VIP`s\source\repos\EzLearn\EZLearn\SheduleServer API\SheduleServer API\bin\Debug\net7.0\SheduleServer API.deps.json
+C:\Users\VIP`s\source\repos\EzLearn\EZLearn\SheduleServer API\SheduleServer API\bin\Debug\net7.0\SheduleServer API.runtimeconfig.json
+C:\Users\VIP`s\source\repos\EzLearn\EZLearn\SheduleServer API\SheduleServer API\bin\Debug\net7.0\SheduleServer API.dll
+C:\Users\VIP`s\source\repos\EzLearn\EZLearn\SheduleServer API\SheduleServer API\bin\Debug\net7.0\SheduleServer API.pdb
+C:\Users\VIP`s\source\repos\EzLearn\EZLearn\SheduleServer API\SheduleServer API\bin\Debug\net7.0\Microsoft.AspNetCore.OpenApi.dll
+C:\Users\VIP`s\source\repos\EzLearn\EZLearn\SheduleServer API\SheduleServer API\bin\Debug\net7.0\Microsoft.EntityFrameworkCore.dll
+C:\Users\VIP`s\source\repos\EzLearn\EZLearn\SheduleServer API\SheduleServer API\bin\Debug\net7.0\Microsoft.EntityFrameworkCore.Abstractions.dll
+C:\Users\VIP`s\source\repos\EzLearn\EZLearn\SheduleServer API\SheduleServer API\bin\Debug\net7.0\Microsoft.EntityFrameworkCore.Relational.dll
+C:\Users\VIP`s\source\repos\EzLearn\EZLearn\SheduleServer API\SheduleServer API\bin\Debug\net7.0\Microsoft.OpenApi.dll
+C:\Users\VIP`s\source\repos\EzLearn\EZLearn\SheduleServer API\SheduleServer API\bin\Debug\net7.0\Npgsql.dll
+C:\Users\VIP`s\source\repos\EzLearn\EZLearn\SheduleServer API\SheduleServer API\bin\Debug\net7.0\Npgsql.EntityFrameworkCore.PostgreSQL.dll
+C:\Users\VIP`s\source\repos\EzLearn\EZLearn\SheduleServer API\SheduleServer API\bin\Debug\net7.0\Swashbuckle.AspNetCore.Swagger.dll
+C:\Users\VIP`s\source\repos\EzLearn\EZLearn\SheduleServer API\SheduleServer API\bin\Debug\net7.0\Swashbuckle.AspNetCore.SwaggerGen.dll
+C:\Users\VIP`s\source\repos\EzLearn\EZLearn\SheduleServer API\SheduleServer API\bin\Debug\net7.0\Swashbuckle.AspNetCore.SwaggerUI.dll
+C:\Users\VIP`s\source\repos\EzLearn\EZLearn\SheduleServer API\SheduleServer API\bin\Debug\net7.0\SheduleServer.DAL.dll
+C:\Users\VIP`s\source\repos\EzLearn\EZLearn\SheduleServer API\SheduleServer API\bin\Debug\net7.0\SheduleServer.Domain.dll
+C:\Users\VIP`s\source\repos\EzLearn\EZLearn\SheduleServer API\SheduleServer API\bin\Debug\net7.0\SheduleServer.Service.dll
+C:\Users\VIP`s\source\repos\EzLearn\EZLearn\SheduleServer API\SheduleServer API\bin\Debug\net7.0\SheduleServer.Service.pdb
+C:\Users\VIP`s\source\repos\EzLearn\EZLearn\SheduleServer API\SheduleServer API\bin\Debug\net7.0\SheduleServer.DAL.pdb
+C:\Users\VIP`s\source\repos\EzLearn\EZLearn\SheduleServer API\SheduleServer API\bin\Debug\net7.0\SheduleServer.Domain.pdb
+C:\Users\VIP`s\source\repos\EzLearn\EZLearn\SheduleServer API\SheduleServer API\obj\Debug\net7.0\staticwebassets\msbuild.SheduleServer API.Microsoft.AspNetCore.StaticWebAssets.props
+C:\Users\VIP`s\source\repos\EzLearn\EZLearn\SheduleServer API\SheduleServer API\obj\Debug\net7.0\staticwebassets\msbuild.build.SheduleServer API.props
+C:\Users\VIP`s\source\repos\EzLearn\EZLearn\SheduleServer API\SheduleServer API\obj\Debug\net7.0\staticwebassets\msbuild.buildMultiTargeting.SheduleServer API.props
+C:\Users\VIP`s\source\repos\EzLearn\EZLearn\SheduleServer API\SheduleServer API\obj\Debug\net7.0\staticwebassets\msbuild.buildTransitive.SheduleServer API.props
+C:\Users\VIP`s\source\repos\EzLearn\EZLearn\SheduleServer API\SheduleServer API\obj\Debug\net7.0\staticwebassets.pack.json
+C:\Users\VIP`s\source\repos\EzLearn\EZLearn\SheduleServer API\SheduleServer API\obj\Debug\net7.0\staticwebassets.build.json
+C:\Users\VIP`s\source\repos\EzLearn\EZLearn\SheduleServer API\SheduleServer API\obj\Debug\net7.0\staticwebassets.development.json
+C:\Users\VIP`s\source\repos\EzLearn\EZLearn\SheduleServer API\SheduleServer API\obj\Debug\net7.0\scopedcss\bundle\SheduleServer API.styles.css
+C:\Users\VIP`s\source\repos\EzLearn\EZLearn\SheduleServer API\SheduleServer API\obj\Debug\net7.0\SheduleServer API.csproj.CopyComplete
+C:\Users\VIP`s\source\repos\EzLearn\EZLearn\SheduleServer API\SheduleServer API\obj\Debug\net7.0\SheduleServer API.dll
+C:\Users\VIP`s\source\repos\EzLearn\EZLearn\SheduleServer API\SheduleServer API\obj\Debug\net7.0\refint\SheduleServer API.dll
+C:\Users\VIP`s\source\repos\EzLearn\EZLearn\SheduleServer API\SheduleServer API\obj\Debug\net7.0\SheduleServer API.pdb
+C:\Users\VIP`s\source\repos\EzLearn\EZLearn\SheduleServer API\SheduleServer API\obj\Debug\net7.0\SheduleServer API.genruntimeconfig.cache
+C:\Users\VIP`s\source\repos\EzLearn\EZLearn\SheduleServer API\SheduleServer API\obj\Debug\net7.0\ref\SheduleServer API.dll
