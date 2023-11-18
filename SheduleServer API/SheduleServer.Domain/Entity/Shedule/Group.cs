@@ -11,9 +11,9 @@ namespace SheduleServer.Domain.Entity.Shedule
 		public int Id { get; set; }
 		public string Number { get; set; }
 
-        public int UniversityId { get; set; }
-        public University University { get; set; }
+        public int UniversityId { get; set; } //Служебное
+		public University University { get; set; }  //Служебное
 
-        public IEnumerable<SheduleTemplate> SheduleTemplates { get; set; }
+		public IEnumerable<SheduleTemplate> SheduleTemplates { get; set; } //Служебное
     }
 }

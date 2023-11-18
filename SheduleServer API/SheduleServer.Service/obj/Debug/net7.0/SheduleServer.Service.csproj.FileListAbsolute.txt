@@ -1,0 +1,17 @@
+C:\Users\VIP`s\source\repos\EzLearn\EZLearn\SheduleServer API\SheduleServer.Service\obj\Debug\net7.0\SheduleServer.Service.csproj.AssemblyReference.cache
+C:\Users\VIP`s\source\repos\EzLearn\EZLearn\SheduleServer API\SheduleServer.Service\obj\Debug\net7.0\SheduleServer.Service.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\VIP`s\source\repos\EzLearn\EZLearn\SheduleServer API\SheduleServer.Service\obj\Debug\net7.0\SheduleServer.Service.AssemblyInfoInputs.cache
+C:\Users\VIP`s\source\repos\EzLearn\EZLearn\SheduleServer API\SheduleServer.Service\obj\Debug\net7.0\SheduleServer.Service.AssemblyInfo.cs
+C:\Users\VIP`s\source\repos\EzLearn\EZLearn\SheduleServer API\SheduleServer.Service\obj\Debug\net7.0\SheduleServer.Service.csproj.CoreCompileInputs.cache
+C:\Users\VIP`s\source\repos\EzLearn\EZLearn\SheduleServer API\SheduleServer.Service\bin\Debug\net7.0\SheduleServer.Service.deps.json
+C:\Users\VIP`s\source\repos\EzLearn\EZLearn\SheduleServer API\SheduleServer.Service\bin\Debug\net7.0\SheduleServer.Service.dll
+C:\Users\VIP`s\source\repos\EzLearn\EZLearn\SheduleServer API\SheduleServer.Service\bin\Debug\net7.0\SheduleServer.Service.pdb
+C:\Users\VIP`s\source\repos\EzLearn\EZLearn\SheduleServer API\SheduleServer.Service\bin\Debug\net7.0\SheduleServer.DAL.dll
+C:\Users\VIP`s\source\repos\EzLearn\EZLearn\SheduleServer API\SheduleServer.Service\bin\Debug\net7.0\SheduleServer.Domain.dll
+C:\Users\VIP`s\source\repos\EzLearn\EZLearn\SheduleServer API\SheduleServer.Service\bin\Debug\net7.0\SheduleServer.DAL.pdb
+C:\Users\VIP`s\source\repos\EzLearn\EZLearn\SheduleServer API\SheduleServer.Service\bin\Debug\net7.0\SheduleServer.Domain.pdb
+C:\Users\VIP`s\source\repos\EzLearn\EZLearn\SheduleServer API\SheduleServer.Service\obj\Debug\net7.0\SheduleServer.Service.csproj.CopyComplete
+C:\Users\VIP`s\source\repos\EzLearn\EZLearn\SheduleServer API\SheduleServer.Service\obj\Debug\net7.0\SheduleServer.Service.dll
+C:\Users\VIP`s\source\repos\EzLearn\EZLearn\SheduleServer API\SheduleServer.Service\obj\Debug\net7.0\refint\SheduleServer.Service.dll
+C:\Users\VIP`s\source\repos\EzLearn\EZLearn\SheduleServer API\SheduleServer.Service\obj\Debug\net7.0\SheduleServer.Service.pdb
+C:\Users\VIP`s\source\repos\EzLearn\EZLearn\SheduleServer API\SheduleServer.Service\obj\Debug\net7.0\ref\SheduleServer.Service.dll

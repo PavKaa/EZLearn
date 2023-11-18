@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "4JCYaHS4F0SMo3ZMFCYoSXfKdsZ/TzutvrIqwvFb5bWvTLE3CgKUc0W1N765CTB+wbLX2897iAuSiwMY4m3R3A==",
+  "dgSpecHash": "InJqckt+tbCk9ANpjeZzopJ2l8OGzaX7jHRkU7KSbV6+xQ1iEymWyGuEhFN1C+G+cjtLJUwFYEaXZ0r7t50GVA==",
   "success": true,
-  "projectFilePath": "C:\\Users\\VIP`s\\source\\repos\\SheduleServer API\\SheduleServer.DAL\\SheduleServer.DAL.csproj",
+  "projectFilePath": "C:\\Users\\VIP`s\\source\\repos\\EzLearn\\EZLearn\\SheduleServer API\\SheduleServer.DAL\\SheduleServer.DAL.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\VIP`s\\.nuget\\packages\\microsoft.entityframeworkcore\\7.0.11\\microsoft.entityframeworkcore.7.0.11.nupkg.sha512",
     "C:\\Users\\VIP`s\\.nuget\\packages\\microsoft.entityframeworkcore.abstractions\\7.0.11\\microsoft.entityframeworkcore.abstractions.7.0.11.nupkg.sha512",

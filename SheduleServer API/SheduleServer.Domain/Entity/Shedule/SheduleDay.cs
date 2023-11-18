@@ -10,8 +10,9 @@ namespace SheduleServer.Domain.Entity.Shedule
 	{
         public int Id { get; set; }
         public DayType DayType { get; set; }
+		public bool Parity { get; set; }
 
-        public int SheduleTemplateId { get; set; }
+		public int SheduleTemplateId { get; set; }
         public SheduleTemplate SheduleTemplate { get; set; }
 
 		public virtual IEnumerable<SheduleLessonsInDay> SheduleLessonsInDays { get; set; }
