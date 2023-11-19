@@ -9,11 +9,8 @@ namespace SheduleServer.Service.Dto.University
 {
 	public class UniversityUpdateModelDto
 	{
-        public int Id { get; set; }
+        public string Id { get; set; }
 
-		[Required(ErrorMessage = "Required field")]
-		[MaxLength(50, ErrorMessage = "Max length of field is 50 symbols")]
-		[MinLength(5, ErrorMessage = "Min length of field is 5 symbols")]
 		public string Title { get; set; }
     }
 }

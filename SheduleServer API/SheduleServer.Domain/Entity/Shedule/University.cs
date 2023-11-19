@@ -8,7 +8,7 @@ namespace SheduleServer.Domain.Entity.Shedule
 {
 	public class University
 	{
-        public int Id { get; set; }
+        public string Id { get; set; }
         public string Title { get; set; }
 
         public IEnumerable<Group> Groups { get; set; }

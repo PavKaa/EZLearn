@@ -8,11 +8,11 @@ namespace SheduleServer.Domain.Entity.Shedule
 {
 	public class SheduleDay
 	{
-        public int Id { get; set; }
+        public string Id { get; set; }
         public DayType DayType { get; set; }
-		public bool Parity { get; set; }
+		public Parity Parity { get; set; }
 
-		public int SheduleTemplateId { get; set; }
+		public string SheduleTemplateId { get; set; }
         public SheduleTemplate SheduleTemplate { get; set; }
 
 		public virtual IEnumerable<SheduleLessonsInDay> SheduleLessonsInDays { get; set; }
@@ -27,5 +27,11 @@ namespace SheduleServer.Domain.Entity.Shedule
         FRIDAY,
         SATURDAY,
         SUNDAY
+    }
+
+    public enum Parity
+    {
+        EVEN,
+        ODD
     }
 }

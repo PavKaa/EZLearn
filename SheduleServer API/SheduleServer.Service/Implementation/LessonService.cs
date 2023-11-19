@@ -3,6 +3,7 @@ using SheduleServer.DAL.Data;
 using SheduleServer.Domain.Entity.Shedule;
 using SheduleServer.Domain.Response;
 using SheduleServer.Service.Dto.Lesson;
+using SheduleServer.Service.Instruments;
 using SheduleServer.Service.Interface;
 
 
@@ -30,6 +31,7 @@ namespace SheduleServer.Service.Implementation
 			{ 
 				var lesson = new Lesson
 				{
+					Id = RandomIdGenerator.GenerateRandomId(),
 					Title = model.Title
 				};
 
@@ -48,13 +50,13 @@ namespace SheduleServer.Service.Implementation
 			}
 		}
 
-		public async Task<IBaseResponse<Lesson>> DeleteLessonAsync(LessonDeleteModelDto model)
+		public async Task<IBaseResponse<Lesson>> DeleteLessonAsync(string id)
 		{
 			var response = new BaseResponse<Lesson>();
 
 			try
 			{
-				var lesson = await context.Lessons.Where(l => l.Id == model.Id).FirstOrDefaultAsync();
+				var lesson = await context.Lessons.Where(l => l.Id == id).FirstOrDefaultAsync();
 
 				if (lesson == null)
 				{
@@ -100,7 +102,7 @@ namespace SheduleServer.Service.Implementation
 			}
 		}
 
-		public async Task<IBaseResponse<Lesson>> GetLessonById(int id)
+		public async Task<IBaseResponse<Lesson>> GetLessonById(string id)
 		{
 			var response = new BaseResponse<Lesson>();
 

@@ -8,11 +8,11 @@ namespace SheduleServer.Service.Interface
 	{
 		public Task<IBaseResponse<Group>> CreateGroupAsync(GroupCreateModelDto model);
 
-		public Task<IBaseResponse<Group>> DeleteGroupAsync(GroupDeleteModelDto model);
+		public Task<IBaseResponse<Group>> DeleteGroupAsync(string id);
 
 		public Task<IBaseResponse<Group>> UpdateGroupAsync(GroupUpdateModelDto model);
 
-		public Task<IBaseResponse<Group>> GetGroupById(int id);
+		public Task<IBaseResponse<Group>> GetGroupById(string id);
 
 		public Task<IBaseResponse<IEnumerable<Group>>> GetAllGroupsAsync();
 	}

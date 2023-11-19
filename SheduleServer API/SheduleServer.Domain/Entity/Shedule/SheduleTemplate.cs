@@ -8,10 +8,10 @@ namespace SheduleServer.Domain.Entity.Shedule
 {
 	public class SheduleTemplate
 	{
-        public int Id { get; set; }
+        public string Id { get; set; }
 		public string Title { get; set; }
 
-        public int GroupId { get; set; }
+        public string GroupId { get; set; }
         public Group Group { get; set; }
 
 		public IEnumerable<SheduleDay> SheduleDays { get; set; }

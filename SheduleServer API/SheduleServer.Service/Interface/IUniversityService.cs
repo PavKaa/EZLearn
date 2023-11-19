@@ -8,12 +8,12 @@ namespace SheduleServer.Service.Interface
 	{
 		public Task<IBaseResponse<University>> CreateUniversityAsync(UniversityCreateModelDto model);
 
-		public Task<IBaseResponse<University>> DeleteUniversityAsync(UniversityDeleteModelDto model);
+		public Task<IBaseResponse<University>> DeleteUniversityAsync(string id);
 
 		public Task<IBaseResponse<University>> UpdateUniversityAsync(UniversityUpdateModelDto model);
 
-		public Task<IBaseResponse<University>> GetUniversityById(int id);
+		public Task<IBaseResponse<University>> GetUniversityById(string id);
 
-		public Task<IBaseResponse<IEnumerable<University>>> GetAllUniversitysAsync();
+		public Task<IBaseResponse<IEnumerable<University>>> GetAllUniversitiesAsync();
 	}
 }

@@ -8,7 +8,7 @@ namespace SheduleServer.Domain.Entity.Shedule
 {
 	public class LessonTime
 	{
-        public int Id { get; set; }
+        public string Id { get; set; }
         public int Order { get; set; }
         public DateTime TimeStart { get; set; }
         public DateTime TimeEnd { get; set; }

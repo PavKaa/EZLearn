@@ -3,6 +3,7 @@ using SheduleServer.DAL.Data;
 using SheduleServer.Domain.Entity.Shedule;
 using SheduleServer.Domain.Response;
 using SheduleServer.Service.Dto.SheduleTemplate;
+using SheduleServer.Service.Instruments;
 using SheduleServer.Service.Interface;
 
 namespace SheduleServer.Service.Implementation
@@ -29,6 +30,7 @@ namespace SheduleServer.Service.Implementation
 			{
 				var sheduleTemplate = new SheduleTemplate
 				{
+					Id = RandomIdGenerator.GenerateRandomId(),
 					Title = model.Title,
 					GroupId = model.GroupId
 				};
@@ -48,13 +50,13 @@ namespace SheduleServer.Service.Implementation
 			}
 		}
 
-		public async Task<IBaseResponse<SheduleTemplate>> DeleteSheduleTemplateAsync(SheduleTemplateDeleteModelDto model)
+		public async Task<IBaseResponse<SheduleTemplate>> DeleteSheduleTemplateAsync(string id)
 		{
 			var response = new BaseResponse<SheduleTemplate>();
 
 			try
 			{
-				var sheduleTemplate = await context.SheduleTemplates.Where(st => st.Id == model.Id).FirstOrDefaultAsync();
+				var sheduleTemplate = await context.SheduleTemplates.Where(st => st.Id == id).FirstOrDefaultAsync();
 
 				if (sheduleTemplate == null)
 				{
@@ -100,7 +102,7 @@ namespace SheduleServer.Service.Implementation
 			}
 		}
 
-		public async Task<IBaseResponse<SheduleTemplate>> GetSheduleTemplateById(int id)
+		public async Task<IBaseResponse<SheduleTemplate>> GetSheduleTemplateById(string id)
 		{
 			var response = new BaseResponse<SheduleTemplate>();
 

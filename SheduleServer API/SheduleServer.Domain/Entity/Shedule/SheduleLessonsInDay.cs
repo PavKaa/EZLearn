@@ -8,12 +8,12 @@ namespace SheduleServer.Domain.Entity.Shedule
 {
 	public class SheduleLessonsInDay
 	{
-        public int Id { get; set; }
+        public string Id { get; set; }
 
-        public int SheduleDayId { get; set; }
+        public string SheduleDayId { get; set; }
         public SheduleDay SheduleDay { get; set; }
 
-		public int SheduleLessonId { get; set; }
+		public string SheduleLessonId { get; set; }
 		public SheduleLesson SheduleLesson { get; set; }
 	}
 }

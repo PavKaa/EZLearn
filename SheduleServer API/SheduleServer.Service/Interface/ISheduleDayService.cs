@@ -13,11 +13,11 @@ namespace SheduleServer.Service.Interface
 	{
 		public Task<IBaseResponse<SheduleDay>> CreateSheduleDayAsync(SheduleDayCreateModelDto model);
 
-		public Task<IBaseResponse<SheduleDay>> DeleteSheduleDayAsync(SheduleDayDeleteModelDto model);
+		public Task<IBaseResponse<SheduleDay>> DeleteSheduleDayAsync(string id);
 
 		public Task<IBaseResponse<SheduleDay>> UpdateSheduleDayAsync(SheduleDayUpdateModelDto model);
 
-		public Task<IBaseResponse<SheduleDay>> GetSheduleDayById(int id);
+		public Task<IBaseResponse<SheduleDay>> GetSheduleDayById(string id);
 
 		public Task<IBaseResponse<IEnumerable<SheduleDay>>> GetAllSheduleDaysAsync();
 	}

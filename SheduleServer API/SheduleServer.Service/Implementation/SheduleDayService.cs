@@ -3,6 +3,7 @@ using SheduleServer.DAL.Data;
 using SheduleServer.Domain.Entity.Shedule;
 using SheduleServer.Domain.Response;
 using SheduleServer.Service.Dto.SheduleDay;
+using SheduleServer.Service.Instruments;
 using SheduleServer.Service.Interface;
 
 namespace SheduleServer.Service.Implementation
@@ -27,10 +28,19 @@ namespace SheduleServer.Service.Implementation
 
 			try
 			{
+				if(!Enum.TryParse<DayType>(model.DayType, out var dayType) ||
+					!Enum.TryParse<Parity>(model.Parity, out var parityType))
+				{
+					response.Description = $"ErrorMessage: Invalid enum value";
+					response.StatusCode = 500;
+					return response;
+				}
+
 				var sheduleDay = new SheduleDay
 				{
-					DayType = (DayType)model.DayType,
-					Parity = model.Parity,
+					Id = RandomIdGenerator.GenerateRandomId(),
+					DayType = dayType,
+					Parity = parityType,
 					SheduleTemplateId = model.SheduleTemplateId
 				};
 
@@ -49,13 +59,13 @@ namespace SheduleServer.Service.Implementation
 			}
 		}
 
-		public async Task<IBaseResponse<SheduleDay>> DeleteSheduleDayAsync(SheduleDayDeleteModelDto model)
+		public async Task<IBaseResponse<SheduleDay>> DeleteSheduleDayAsync(string id)
 		{
 			var response = new BaseResponse<SheduleDay>();
 
 			try
 			{
-				var sheduleDay = await context.SheduleDays.Where(s => s.Id == model.Id).FirstOrDefaultAsync();
+				var sheduleDay = await context.SheduleDays.Where(s => s.Id == id).FirstOrDefaultAsync();
 
 				if (sheduleDay == null)
 				{
@@ -101,7 +111,7 @@ namespace SheduleServer.Service.Implementation
 			}
 		}
 
-		public async Task<IBaseResponse<SheduleDay>> GetSheduleDayById(int id)
+		public async Task<IBaseResponse<SheduleDay>> GetSheduleDayById(string id)
 		{
 			var response = new BaseResponse<SheduleDay>();
 
@@ -146,7 +156,14 @@ namespace SheduleServer.Service.Implementation
 					return response;
 				}
 
-				sheduleDay.Parity = model.Parity;
+				if (!Enum.TryParse<Parity>(model.Parity, out var parityType))
+				{
+					response.Description = $"ErrorMessage: Invalid enum value";
+					response.StatusCode = 500;
+					return response;
+				}
+
+				sheduleDay.Parity = parityType;
 
 				context.SheduleDays.Update(sheduleDay);
 				await context.SaveChangesAsync();

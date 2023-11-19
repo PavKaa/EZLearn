@@ -8,6 +8,10 @@ namespace SheduleServer.Service.Dto.Professor
 {
 	public class ProfessorCreateModelDto
 	{
-        public string FullName { get; set; }
+        public string FirstName { get; set; }
+
+        public string MiddleName { get; set; }
+
+        public string LastName { get; set; }
     }
 }

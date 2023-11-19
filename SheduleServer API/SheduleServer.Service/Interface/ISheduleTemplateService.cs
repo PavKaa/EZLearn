@@ -8,11 +8,11 @@ namespace SheduleServer.Service.Interface
 	{
 		public Task<IBaseResponse<SheduleTemplate>> CreateSheduleTemplateAsync(SheduleTemplateCreateModelDto model);
 
-		public Task<IBaseResponse<SheduleTemplate>> DeleteSheduleTemplateAsync(SheduleTemplateDeleteModelDto model);
+		public Task<IBaseResponse<SheduleTemplate>> DeleteSheduleTemplateAsync(string id);
 
 		public Task<IBaseResponse<SheduleTemplate>> UpdateSheduleTemplateAsync(SheduleTemplateUpdateModelDto model);
 
-		public Task<IBaseResponse<SheduleTemplate>> GetSheduleTemplateById(int id);
+		public Task<IBaseResponse<SheduleTemplate>> GetSheduleTemplateById(string id);
 
 		public Task<IBaseResponse<IEnumerable<SheduleTemplate>>> GetAllSheduleTemplatesAsync();
 	}

@@ -8,7 +8,7 @@ namespace SheduleServer.Service.Dto.Group
 {
 	public class GroupUpdateModelDto
 	{
-		public int Id { get; set; }
+		public string Id { get; set; }
 
 		public string Number { get; set; }
 	}

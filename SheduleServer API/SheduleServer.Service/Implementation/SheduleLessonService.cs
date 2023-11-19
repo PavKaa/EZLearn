@@ -3,6 +3,7 @@ using SheduleServer.DAL.Data;
 using SheduleServer.Domain.Entity.Shedule;
 using SheduleServer.Domain.Response;
 using SheduleServer.Service.Dto.SheduleLesson;
+using SheduleServer.Service.Instruments;
 using SheduleServer.Service.Interface;
 
 namespace SheduleServer.Service.Implementation
@@ -27,9 +28,17 @@ namespace SheduleServer.Service.Implementation
 
 			try
 			{
+				if(!Enum.TryParse<LessonType>(model.Type, out var lesonType))
+				{
+					response.Description = $"ErrorMessage: Invalid enum value";
+					response.StatusCode = 500;
+					return response;
+				}
+
 				var sheduleLesson = new SheduleLesson
 				{
-					Type = (LessonType)model.Type,
+					Id = RandomIdGenerator.GenerateRandomId(),
+					Type = lesonType,
 					LessonId = model.LessonId,
 					LessonTimeId = model.LessonTimeId
 				};
@@ -49,13 +58,13 @@ namespace SheduleServer.Service.Implementation
 			}
 		}
 
-		public async Task<IBaseResponse<SheduleLesson>> DeleteSheduleLessonAsync(SheduleLessonDeleteModelDto model)
+		public async Task<IBaseResponse<SheduleLesson>> DeleteSheduleLessonAsync(string id)
 		{
 			var response = new BaseResponse<SheduleLesson>();
 
 			try
 			{
-				var sheduleLesson = await context.SheduleLessons.Where(sl => sl.Id == model.Id).FirstOrDefaultAsync();
+				var sheduleLesson = await context.SheduleLessons.Where(sl => sl.Id == id).FirstOrDefaultAsync();
 
 				if (sheduleLesson == null)
 				{
@@ -101,7 +110,7 @@ namespace SheduleServer.Service.Implementation
 			}
 		}
 
-		public async Task<IBaseResponse<SheduleLesson>> GetSheduleLessonById(int id)
+		public async Task<IBaseResponse<SheduleLesson>> GetSheduleLessonById(string id)
 		{
 			var response = new BaseResponse<SheduleLesson>();
 

@@ -10,6 +10,6 @@ namespace SheduleServer.Service.Dto.SheduleTemplate
 	{
         public string Title { get; set; }
 
-        public int GroupId { get; set; }
+        public string GroupId { get; set; }
     }
 }

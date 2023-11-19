@@ -9,11 +9,11 @@ namespace SheduleServer.Service.Interface
 
 		public Task<IBaseResponse<LessonTime>> CreateLessonTimeAsync(LessonTimeCreateModelDto model);
 
-		public Task<IBaseResponse<LessonTime>> DeleteLessonTimeAsync(LessonTimeDeleteModelDto model);
+		public Task<IBaseResponse<LessonTime>> DeleteLessonTimeAsync(string id);
 
 		public Task<IBaseResponse<LessonTime>> UpdateLessonTimeAsync(LessonTimeUpdateModelDto model);
 
-		public Task<IBaseResponse<LessonTime>> GetLessonTimeById(int id);
+		public Task<IBaseResponse<LessonTime>> GetLessonTimeById(string id);
 
 		public Task<IBaseResponse<IEnumerable<LessonTime>>> GetAllLessonTimesAsync();
 	}

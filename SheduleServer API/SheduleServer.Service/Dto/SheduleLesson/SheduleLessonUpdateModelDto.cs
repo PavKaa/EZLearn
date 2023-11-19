@@ -8,7 +8,7 @@ namespace SheduleServer.Service.Dto.SheduleLesson
 {
 	public class SheduleLessonUpdateModelDto
 	{
-        public int Id { get; set; }
+        public string Id { get; set; }
 
         public int Type { get; set; }
     }

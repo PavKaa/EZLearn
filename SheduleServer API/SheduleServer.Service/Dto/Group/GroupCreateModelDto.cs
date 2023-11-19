@@ -10,6 +10,6 @@ namespace SheduleServer.Service.Dto.Group
 	{
 		public string Number { get; set; }
 
-		public int UniversityId { get; set; }
+		public string UniversityId { get; set; }
 	}
 }

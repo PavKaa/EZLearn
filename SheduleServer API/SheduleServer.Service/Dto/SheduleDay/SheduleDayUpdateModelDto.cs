@@ -8,8 +8,8 @@ namespace SheduleServer.Service.Dto.SheduleDay
 {
 	public class SheduleDayUpdateModelDto
 	{
-        public int Id { get; set; }
+        public string Id { get; set; }
 
-        public bool Parity { get; set; }
+        public string Parity { get; set; }
     }
 }

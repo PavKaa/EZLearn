@@ -3,6 +3,7 @@ using SheduleServer.DAL.Data;
 using SheduleServer.Domain.Entity.Shedule;
 using SheduleServer.Domain.Response;
 using SheduleServer.Service.Dto.University;
+using SheduleServer.Service.Instruments;
 using SheduleServer.Service.Interface;
 
 namespace SheduleServer.Service.Implementation
@@ -39,6 +40,7 @@ namespace SheduleServer.Service.Implementation
 
 				university = new University
 				{
+					Id = RandomIdGenerator.GenerateRandomId(),
 					Title = model.Title
 				};
 
@@ -57,13 +59,13 @@ namespace SheduleServer.Service.Implementation
 			}
 		}
 
-		public async Task<IBaseResponse<University>> DeleteUniversityAsync(UniversityDeleteModelDto model)
+		public async Task<IBaseResponse<University>> DeleteUniversityAsync(string id)
 		{
 			var response = new BaseResponse<University>();
 
 			try
 			{
-				var university = await context.Universities.Where(u => u.Id == model.Id).FirstOrDefaultAsync();
+				var university = await context.Universities.Where(u => u.Id == id).FirstOrDefaultAsync();
 
 				if (university == null)
 				{
@@ -90,7 +92,7 @@ namespace SheduleServer.Service.Implementation
 			}
 		}
 
-		public async Task<IBaseResponse<IEnumerable<University>>> GetAllUniversitysAsync()
+		public async Task<IBaseResponse<IEnumerable<University>>> GetAllUniversitiesAsync()
 		{
 			var response = new BaseResponse<IEnumerable<University>>();
 
@@ -109,7 +111,7 @@ namespace SheduleServer.Service.Implementation
 			}
 		}
 
-		public async Task<IBaseResponse<University>> GetUniversityById(int id)
+		public async Task<IBaseResponse<University>> GetUniversityById(string id)
 		{
 			var response = new BaseResponse<University>();
 

@@ -3,6 +3,7 @@ using SheduleServer.DAL.Data;
 using SheduleServer.Domain.Entity.Shedule;
 using SheduleServer.Domain.Response;
 using SheduleServer.Service.Dto.Group;
+using SheduleServer.Service.Instruments;
 using SheduleServer.Service.Interface;
 
 namespace SheduleServer.Service.Implementation
@@ -29,6 +30,7 @@ namespace SheduleServer.Service.Implementation
 			{
 				var group = new Group
 				{
+					Id = RandomIdGenerator.GenerateRandomId(),
 					Number = model.Number,
 					UniversityId = model.UniversityId
 				};
@@ -48,13 +50,13 @@ namespace SheduleServer.Service.Implementation
 			}
 		}
 
-		public async Task<IBaseResponse<Group>> DeleteGroupAsync(GroupDeleteModelDto model)
+		public async Task<IBaseResponse<Group>> DeleteGroupAsync(string id)
 		{
 			var response = new BaseResponse<Group>();
 
 			try
 			{
-				var group = await context.Groups.Where(g => g.Id == model.Id).FirstOrDefaultAsync();
+				var group = await context.Groups.Where(g => g.Id == id).FirstOrDefaultAsync();
 
 				if (group == null)
 				{
@@ -100,7 +102,7 @@ namespace SheduleServer.Service.Implementation
 			}
 		}
 
-		public async Task<IBaseResponse<Group>> GetGroupById(int id)
+		public async Task<IBaseResponse<Group>> GetGroupById(string id)
 		{
 			var response = new BaseResponse<Group>();
 

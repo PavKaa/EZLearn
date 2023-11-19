@@ -8,7 +8,7 @@ namespace SheduleServer.Service.Dto.LessonTime
 {
 	public class LessonTimeUpdateModelDto
 	{
-        public int Id { get; set; }
+        public string Id { get; set; }
 
 		public int Order { get; set; }
 

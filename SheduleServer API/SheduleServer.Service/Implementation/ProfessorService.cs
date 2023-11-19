@@ -3,6 +3,7 @@ using SheduleServer.DAL.Data;
 using SheduleServer.Domain.Entity.Shedule;
 using SheduleServer.Domain.Response;
 using SheduleServer.Service.Dto.Professor;
+using SheduleServer.Service.Instruments;
 using SheduleServer.Service.Interface;
 
 namespace SheduleServer.Service.Implementation
@@ -26,14 +27,13 @@ namespace SheduleServer.Service.Implementation
 			var response = new BaseResponse<Professor>();
 
 			try
-			{
-				string[] nameParts = model.FullName.Split(new char[] {' '}, StringSplitOptions.RemoveEmptyEntries);
-					
+			{	
 				var professor = new Professor
 				{
-					LastName = nameParts[0],
-					FirstName = nameParts[1],
-					MiddleName = nameParts[2]
+					Id = RandomIdGenerator.GenerateRandomId(),
+					LastName = model.LastName,
+					FirstName = model.FirstName,
+					MiddleName = model.MiddleName
 				};
 
 				await context.Professors.AddAsync(professor);
@@ -51,13 +51,13 @@ namespace SheduleServer.Service.Implementation
 			}
 		}
 
-		public async Task<IBaseResponse<Professor>> DeleteProfessorAsync(ProfessorDeleteModelDto model)
+		public async Task<IBaseResponse<Professor>> DeleteProfessorAsync(string id)
 		{
 			var response = new BaseResponse<Professor>();
 
 			try
 			{
-				var professor = await context.Professors.Where(p => p.Id == model.Id).FirstOrDefaultAsync();
+				var professor = await context.Professors.Where(p => p.Id == id).FirstOrDefaultAsync();
 
 				if (professor == null)
 				{
@@ -103,7 +103,7 @@ namespace SheduleServer.Service.Implementation
 			}
 		}
 
-		public async Task<IBaseResponse<Professor>> GetProfessorById(int id)
+		public async Task<IBaseResponse<Professor>> GetProfessorById(string id)
 		{
 			var response = new BaseResponse<Professor>();
 
